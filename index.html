@@ -10,55 +10,67 @@
 </head>
 
 <body class="font-ubuntu">
-    <div class="xs:flex w-full pre-header contianer hidden justify-between px-36">
-        <div class="contact pt-1">
+    <div class="lg:flex w-full pre-header container-screens hidden justify-between">
+        <div class="contact pt-1 font-normal">
             Contact us on 0 800 123-4567 or <a class="text-primary-green hover:text-primary-blue hover:cursor-pointer">
                 support@themerex.net </a>
         </div>
         <div class="top-panel-top-user-area">
             <ul class="menu-user-nav inited sf-js-enabled sf-arrows">
-                <li class="menu-user-register btn btn-error rounded-t-none text-white">
-                    <a class="" href="#popup_registration"><i class="fa-regular fa-pen-to-square"
+                <li class="menu-user-register btn bg-primary-red rounded-t-none text-white">
+                    <a class="font-normal" href="#popup_registration"><i class="fa-regular fa-pen-to-square fa-xs"
                             style="color: rgb(255, 255, 255);"></i>Register</a>
                 </li>
-                <li class="menu_user_login btn btn-warning rounded-t-none text-white">
-                    <a class="" href="#popup_login"><i class="fa-solid fa-lock" style="color: rgb(255, 255, 255);"></i>
+                <li class="menu_user_login btn bg-primary-orange rounded-t-none text-white">
+                    <a class="font-normal" href="#popup_login"><i class="fa-solid fa-lock fa-xs" style="color: rgb(255, 255, 255);"></i>
                         Login</a>
                 </li>
-                <li class="menu_user_cart btn btn-success rounded-t-none text-white">
+                <li class="menu_user_cart btn bg-primary-green hover:bg-primary-blue rounded-t-none text-white">
                     <a href="#" class="top_panel_cart_button sf-with-ul" data-items="0" data-summa="$0.00">
                         <span class="contact_icon icon-basket"></span>
-                        <span class="contact_label contact_cart_label"><i class="fa-solid fa-cart-shopping"
+                        <span class="font-normal"><i class="fa-solid font-normal fa-xs fa-cart-shopping"
                                 style="color: rgb(255, 255, 255);"></i> Your cart:</span>
                         <span class="contact_cart_totals">
-                            <span class="cart_items">0 Items</span> -
-                            <span class="cart_summa">$0.00</span>
+                            <span class="font-normal">0 Items</span> -
+                            <span class="font-normal">$0.00</span>
                         </span>
                     </a>
-                    <ul class="widget_area sidebar_cart sidebar animated fast fadeOutDown hidden">
-                        <li>
-                            <div class="widget woocommerce widget_shopping_cart hidden">
-                                <div class="hide_cart_widget_if_empty">
-                                    <div class="widget_shopping_cart_content">
-                                        <ul class="cart_list product_list_widget ">
-                                            <li class="empty">No products in the cart.</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
                 </li>
             </ul>
         </div>
-        <!-- <div class="auth-btn capitalize flex justify-between">
-            <button type="button" class="bg-primary-red px-3 py-2 capitalize cursor-pointer rounded-b-md text-white"><i class="fa-regular fa-pen-to-square" style="color: rgb(255, 255, 255);"></i>register </button>            <button type="button" class="bg-primary-red px-3 py-2 capitalize cursor-pointer rounded-b-md text-white"><i class="fa-regular fa-pen-to-square" style="color: rgb(255, 255, 255);"></i>register </button>
-            <button type="button" class="bg-primary-yellow px-3 py-2 capitalize cursor-pointer rounded-b-md text-white"><i class="fa-regular fa-pen-to-square" style="color: rgb(255, 255, 255);"></i>register </button>
-            <button type="button" class="bg-primary-red px-3 py-2 capitalize cursor-pointer rounded-b-md text-white"><i class="fa-regular fa-pen-to-square" style="color: rgb(255, 255, 255);"></i>register </button>
-
-        </div> -->
-
     </div>
+
+     <header class="lg:flex py-10 md:py-16 lg:py-12">
+        <div class="container-screens not-lg:md:relative mx-auto flex not-lg:md:flex-row-reverse lg:flex justify-between md:align-middle items-center h-full">
+            <div class="logo md:justify-center not-lg:md:absolute md:right-[45%]">
+                <a href="./index.html">
+                    <img class="lg:h-20 lg:w-32 h-10 md:h-12" src="./assets/img/logo.png" alt="juno logo">
+                </a>
+            </div>
+            <div class="icons-mobile flex justify-between space-x-5 lg:hidden">
+                <div class="icon-menu not-lg:md:absolute not-lg:md:left-12">
+                    <a href=""><i class="fa-solid fa-bars fa-xl h-3 text-black hover:text-blue-400"></i></a>
+                </div>
+                <div class="icon-basket not-lg:md:absolute not-lg:md:right-12">
+                    <a href=""><i class="fa-solid fa-cart-shopping fa-xl text-black  hover:text-blue-400"></i></a>
+                </div>
+            </div>
+            <div class="screens hidden lg:block">
+                <ul class="md:flex space-x-3 font-black uppercase text-sm">
+                    <li class="btn btn-ghost bg-primary-orange text-white rounded-md"><a href="" >home</a></li>
+                    <li class="btn hover:bg-primary-orange hover:text-white align-middle bg-transparent border-none"><a href="">about us</a></li>
+                    <li class="btn hover:bg-primary-orange hover:text-white align-middle bg-transparent border-none"><a href="">pages</a></li>
+                    <li class="btn hover:bg-primary-orange hover:text-white align-middle bg-transparent border-none"><a href="">blog</a></li>
+                    <li class="btn hover:bg-primary-orange hover:text-white align-middle bg-transparent border-none"><a href="">elements</a></li>
+                    <li class="btn hover:bg-primary-orange hover:text-white align-middle bg-transparent border-none"><a href="">shop</a></li>
+                    <li class=""><a href="" class="btn bg-primary-orange hover:bg-dark-teal"><i class="fa-solid fa-magnifying-glass" style="color: rgb(255, 255, 255);"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </header> 
+
+
+   
 
    
 </body>
